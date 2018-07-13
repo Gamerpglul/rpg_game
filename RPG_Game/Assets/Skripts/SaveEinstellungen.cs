@@ -5,8 +5,8 @@ using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 public class SaveEinstellungen : MonoBehaviour {
 
-    private float musikLautstärke;
-    private float soundLautstärke;
+    private float musikLautstärke=0.5f;
+    private float soundLautstärke = 0.5f;
 
     public float MusikLautstärke
     {
